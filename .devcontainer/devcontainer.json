@@ -18,7 +18,7 @@
   //   "explorer.confirmDragAndDrop": false
   // },
   // "image": "mcr.microsoft.com/azure-cli",
-  // "dockerFile": "Dockerfile",
+  "dockerFile": "Dockerfile"
   // "context": "..",
   // "isInternal": true,
   // "experimentalFeatures": {
