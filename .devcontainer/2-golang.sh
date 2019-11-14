@@ -10,3 +10,5 @@ sudo tar -C /usr/local -xzf go$VERSION.$OS-$ARCH.tar.gz
 rm go$VERSION.$OS-$ARCH.tar.gz
 
 sudo echo 'export PATH=$PATH:/usr/local/go/bin' >> $HOME/.profile
+
+source $HOME/.profile
