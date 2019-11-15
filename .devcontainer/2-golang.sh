@@ -12,3 +12,9 @@ rm go$VERSION.$OS-$ARCH.tar.gz
 sudo echo 'export PATH=$PATH:/usr/local/go/bin' >> $HOME/.profile
 
 source $HOME/.profile
+
+# install gopls
+go get -v golang.org/x/tools/gopls
+
+# install delve
+go get -v github.com/go-delve/delve/cmd/dlv
