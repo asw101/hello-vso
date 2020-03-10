@@ -1,7 +1,7 @@
 # https://dl.google.com/go/go1.13.4.linux-amd64.tar.gz
 # see: https://golang.org/doc/install
 
-VERSION='1.13.4'
+VERSION='1.14'
 OS='linux'
 ARCH='amd64'
 
