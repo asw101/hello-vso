@@ -6,7 +6,7 @@
     "asw101.hello-keymap"
   ],
   // Run Bash script in .devcontainer directory
-  "postCreateCommand": "/bin/bash ./.devcontainer/post-create.sh > ~/post-create.log",
+  // "postCreateCommand": "/bin/bash ./.devcontainer/post-create.sh > ~/post-create.log",
   // "settings": {
   //   "editor.suggestSelection": "first",
   //   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
@@ -17,8 +17,8 @@
   //   "workbench.editor.showTabs": true,
   //   "explorer.confirmDragAndDrop": false
   // },
-  // "image": "mcr.microsoft.com/azure-cli",
-  "dockerFile": "Dockerfile"
+     "image": "asw101/hello-vso"
+  // "dockerFile": "Dockerfile"
   // "context": "..",
   // "isInternal": true,
   // "experimentalFeatures": {
