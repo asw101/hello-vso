@@ -1,23 +1,12 @@
 {
   "extensions": [
-    "ms-vscode.Go",
+    "ms-azuretools.vscode-docker",
     "ms-python.python",
+    "ms-vscode.Go",
     "rust-lang.rust",
     "asw101.hello-keymap"
   ],
-  // Run Bash script in .devcontainer directory
-  // "postCreateCommand": "/bin/bash ./.devcontainer/post-create.sh > ~/post-create.log",
-  // "settings": {
-  //   "editor.suggestSelection": "first",
-  //   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  //   "editor.fontSize": 18,
-  //   "terminal.integrated.fontSize": 18,
-  //   "go.formatTool": "goimports",
-  //   "go.useLanguageServer": true,
-  //   "workbench.editor.showTabs": true,
-  //   "explorer.confirmDragAndDrop": false
-  // },
-     "image": "asw101/hello-vso"
+  "image": "asw101/hello-vso"
   // "dockerFile": "Dockerfile"
   // "context": "..",
   // "isInternal": true,
@@ -25,4 +14,6 @@
   //   "customContainers": true
   // }
   // "appPort": 8080
+  // Run Bash script in .devcontainer directory
+  // "postCreateCommand": "/bin/bash ./.devcontainer/post-create.sh > ~/post-create.log",
 }
