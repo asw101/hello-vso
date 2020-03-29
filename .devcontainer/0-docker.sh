@@ -2,6 +2,10 @@
 apt-get update
 apt-get install -y curl git jq
 
+# add user
+useradd -m user
+su user
+
 # install go
 VERSION='1.14'
 OS='linux'
